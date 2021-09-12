@@ -36,3 +36,5 @@ A skeleton project for typescript projects.
 * `test:clean`: Remove the tests coverage result
 * `lint`: Lint codebase
 * `lint:fix`: Lint codebase and fix problems
+* `prettier:check`: Check if files in the `src` and `test` folders are formatted according to the prettier configurations.
+* `prettier:write`: Format files in the `src` and `test` folders according to the prettier configurations.

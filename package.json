@@ -10,7 +10,9 @@
     "test:coverage": "jest --no-cache --coverage",
     "test:clean": "rimraf coverage",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "prettier:check": "prettier --check ./src ./test",
+    "prettier:write": "prettier --write ./src ./test"
   },
   "repository": {
     "type": "git",
