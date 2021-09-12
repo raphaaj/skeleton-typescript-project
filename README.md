@@ -35,4 +35,4 @@ A skeleton project for typescript projects.
 * `test:coverage`: Run jest tests with coverage report
 * `test:clean`: Remove the tests coverage result
 * `lint`: Lint codebase
-* `lint`: Lint codebase and fix problems
+* `lint:fix`: Lint codebase and fix problems
