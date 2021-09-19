@@ -6,11 +6,11 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "build:clean": "rimraf build",
-    "test": "jest --no-cache",
-    "test:coverage": "jest --no-cache --coverage",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
     "test:clean": "rimraf coverage",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "lint": "eslint ./src ./test --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint ./src ./test --ext .js,.jsx,.ts,.tsx --fix",
     "prettier:check": "prettier --check ./src ./test",
     "prettier:write": "prettier --write ./src ./test"
   },
