@@ -5,3 +5,9 @@ describe('Hello World', () => {
     expect(HelloWorld.hello()).toBe('Hello World!');
   });
 });
+
+describe('CI', () => {
+  it('should break ci', () => {
+    expect(2).toBe(1);
+  });
+});
