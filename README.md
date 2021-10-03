@@ -1,7 +1,7 @@
 # skeleton-typescript-project
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-![CI](https://github.com/raphael-jorge/skeleton-typescript-project/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/raphael-jorge/skeleton-typescript-project/actions/workflows/ci.yml/badge.svg)](https://github.com/raphael-jorge/skeleton-typescript-project/actions/workflows/ci.yml)
 
 
 A skeleton project for typescript projects.
