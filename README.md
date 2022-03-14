@@ -11,11 +11,19 @@ A skeleton project for typescript projects.
     * Name
     * Version
     * Description
+    * Main entry
     * Author
     * Keywords
     * Repository
     * Bugs
+    * License
     * Homepage
+* Update repository actions
+  * [Dependabot](.github/dependabot.yml): automatic dependencies update
+  * [CI](.github/workflows/ci.yml): tests and build validation
+  * [Commitlint](.github/workflows/commitlint.yml): Lint commit messages 
+  * [Dependabot auto merge](.github/workflows/dependabot-auto-merge.yml): Enable auto-merge on dependabot's pull requests
+    * For this action to work properly it is necessary to allow auto-merge on the repository settings
 * Setup git hooks to enable [commitizen](https://github.com/commitizen/cz-cli) on `git commit`:
     * `./setup-git-hooks.sh`
 * Review TypeScript configurations at [tsconfig.json](tsconfig.json)
