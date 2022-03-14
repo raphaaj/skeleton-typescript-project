@@ -9,10 +9,10 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:clean": "rimraf coverage",
-    "lint": "eslint ./src ./test --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint ./src ./test --ext .js,.jsx,.ts,.tsx --fix",
-    "prettier:check": "prettier --check ./src ./test",
-    "prettier:write": "prettier --write ./src ./test"
+    "lint": "eslint ./src ./tests --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint ./src ./tests --ext .js,.jsx,.ts,.tsx --fix",
+    "prettier:check": "prettier --check ./src ./tests",
+    "prettier:write": "prettier --write ./src ./tests"
   },
   "repository": {
     "type": "git",
