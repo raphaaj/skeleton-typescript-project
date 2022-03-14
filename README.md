@@ -16,8 +16,8 @@ A skeleton project for typescript projects.
     * Repository
     * Bugs
     * Homepage
-* Setup project
-    * `./setup.sh`
+* Setup git hooks to enable [commitizen](https://github.com/commitizen/cz-cli) on `git commit`:
+    * `./setup-git-hooks.sh`
 * Review TypeScript configurations at [tsconfig.json](tsconfig.json)
 * Review ESLint configurations at [.eslintrc.js](.eslintrc.js)
 * Review Prettier configurations at [.prettierrc.json](.prettierrc.json)
