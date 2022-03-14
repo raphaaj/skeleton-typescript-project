@@ -1,12 +1,14 @@
 {
   "name": "skeleton-typescript-project",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A skeleton project for typescript projects",
-  "main": "index.js",
+  "main": "src/hello-world.ts",
   "scripts": {
+    "prebuild": "npm run build:clean",
     "build": "tsc -p tsconfig.build.json",
     "build:clean": "rimraf build",
     "test": "jest",
+    "pretest:coverage": "npm run test:clean",
     "test:coverage": "jest --coverage",
     "test:clean": "rimraf coverage",
     "lint": "eslint ./src ./tests --ext .js,.jsx,.ts,.tsx",
