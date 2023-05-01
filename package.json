@@ -18,17 +18,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raphael-jorge/skeleton-typescript-project.git"
+    "url": "git+https://github.com/raphaaj/skeleton-typescript-project.git"
   },
   "author": {
     "name": "Raphael Jorge",
-    "url": "https://github.com/raphael-jorge"
+    "url": "https://github.com/raphaaj"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/raphael-jorge/skeleton-typescript-project/issues"
+    "url": "https://github.com/raphaaj/skeleton-typescript-project/issues"
   },
-  "homepage": "https://github.com/raphael-jorge/skeleton-typescript-project#readme",
+  "homepage": "https://github.com/raphaaj/skeleton-typescript-project#readme",
   "devDependencies": {
     "@types/jest": "^29.5.1",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
